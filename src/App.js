@@ -19,7 +19,8 @@ class App extends React.Component{
     let listArray = this.state.list
     this.state.list.push(input)
     this.setState({
-      list: listArray
+      list: listArray,
+      userInput: ''
     })
   }
 
